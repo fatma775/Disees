@@ -1,0 +1,21 @@
+Package: Disees
+Type: Package
+Title: Epidemiological Models for Disease Spread Analysis
+Version: 0.1.0
+Author: Fatma Ali Al Nadabi
+Maintainer: Fatima Al-Nadabi <s134288@student.squ.edu.om>
+Description: This package provides several epidemiological models (SIR, SEIR) for simulating the dynamics of infectious diseases. 
+  Additionally, it includes methods for estimating the infection rate (β) from data and a set of regression models for analyzing risk factors and making predictions based on health-related data.
+License: GPL-3
+Imports:
+  stats,
+  dplyr (>= 1.0.0)
+Suggests:
+  testthat,
+  knitr,
+  rmarkdown  
+VignetteBuilder: knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+
